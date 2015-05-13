@@ -11,7 +11,7 @@ exports.config =
         ]
     stylesheets:
       joinTo:
-        'stylesheets/pmv.css': /^app\/less\/pmv.less/
+        'stylesheets/[nom_du_less].css': /^app\/less\/[nom_du_less].less/
         'stylesheets/ie-lt9.css': /^app\/less\/ie-lt9.less/
   watcher:
     usePolling: true
